@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MazeShooter.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{CB38EB7A-DDDC-42D0-8487-D0FD1AA4C232}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MazeShooter.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MazeShooterEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{322A20DD-BD02-44CE-88BB-BB260440E796}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MazeShooter">
+      <UniqueIdentifier>{0373ED45-4EC5-4991-B669-FE3A8942361B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MazeShooter\MazeShooter.Build.cs">
+      <Filter>Source\MazeShooter</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MazeShooter\MazeShooter.cpp">
+      <Filter>Source\MazeShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MazeShooter\MazeShooter.h">
+      <Filter>Source\MazeShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MazeShooter\MazeShooterGameModeBase.cpp">
+      <Filter>Source\MazeShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MazeShooter\MazeShooterGameModeBase.h">
+      <Filter>Source\MazeShooter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

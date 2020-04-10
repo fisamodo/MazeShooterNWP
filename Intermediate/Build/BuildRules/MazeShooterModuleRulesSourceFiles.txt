@@ -1,0 +1,3 @@
+C:\Users\Filip\Documents\Unreal Projects\MazeShooter\Source\MazeShooter\MazeShooter.Build.cs
+C:\Users\Filip\Documents\Unreal Projects\MazeShooter\Source\MazeShooter.Target.cs
+C:\Users\Filip\Documents\Unreal Projects\MazeShooter\Source\MazeShooterEditor.Target.cs
