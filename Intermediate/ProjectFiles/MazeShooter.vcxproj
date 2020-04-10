@@ -499,7 +499,9 @@
     <NMakeOutput>..\..\Binaries\HTML5\MazeShooter-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\MazeShooter\Bullet.cpp" />
     <ClCompile Include="..\..\Source\MazeShooter\SpherePawn.cpp" />
+    <ClInclude Include="..\..\Source\MazeShooter\Bullet.h" />
     <ClInclude Include="..\..\Source\MazeShooter\SpherePawn.h" />
     <None Include="..\..\MazeShooter.uproject" />
     <None Include="..\..\Source\MazeShooter.Target.cs" />

@@ -46,9 +46,15 @@
     <ClInclude Include="..\..\Source\MazeShooter\SpherePawn.h">
       <Filter>Source\MazeShooter</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\MazeShooter\Bullet.h">
+      <Filter>Source\MazeShooter</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\MazeShooter\SpherePawn.cpp">
+      <Filter>Source\MazeShooter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MazeShooter\Bullet.cpp">
       <Filter>Source\MazeShooter</Filter>
     </ClCompile>
   </ItemGroup>

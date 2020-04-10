@@ -58,6 +58,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASpherePawn); \
 
 
 #define MazeShooter_Source_MazeShooter_SpherePawn_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__BulletClass() { return STRUCT_OFFSET(ASpherePawn, BulletClass); } \
 	FORCEINLINE static uint32 __PPO__StaticMesh() { return STRUCT_OFFSET(ASpherePawn, StaticMesh); } \
 	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(ASpherePawn, Camera); } \
 	FORCEINLINE static uint32 __PPO__CameraArm() { return STRUCT_OFFSET(ASpherePawn, CameraArm); }
