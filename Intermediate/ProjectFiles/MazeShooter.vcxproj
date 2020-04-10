@@ -500,9 +500,13 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\MazeShooter\Bullet.cpp" />
+    <ClCompile Include="..\..\Source\MazeShooter\MazeShooterGameState.cpp" />
     <ClCompile Include="..\..\Source\MazeShooter\SpherePawn.cpp" />
+    <ClCompile Include="..\..\Source\MazeShooter\Target.cpp" />
     <ClInclude Include="..\..\Source\MazeShooter\Bullet.h" />
+    <ClInclude Include="..\..\Source\MazeShooter\MazeShooterGameState.h" />
     <ClInclude Include="..\..\Source\MazeShooter\SpherePawn.h" />
+    <ClInclude Include="..\..\Source\MazeShooter\Target.h" />
     <None Include="..\..\MazeShooter.uproject" />
     <None Include="..\..\Source\MazeShooter.Target.cs" />
     <None Include="..\..\Source\MazeShooterEditor.Target.cs" />

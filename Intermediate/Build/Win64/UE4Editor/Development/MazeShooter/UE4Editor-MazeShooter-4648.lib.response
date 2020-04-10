@@ -1,0 +1,23 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-MazeShooter-4648.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Filip\Documents\Unreal Projects\MazeShooter\Intermediate\Build\Win64\MazeShooterEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Filip\Documents\Unreal Projects\MazeShooter\Intermediate\Build\Win64\UE4Editor\Development\MazeShooter\Bullet.cpp.obj"
+"C:\Users\Filip\Documents\Unreal Projects\MazeShooter\Intermediate\Build\Win64\UE4Editor\Development\MazeShooter\MazeShooter.cpp.obj"
+"C:\Users\Filip\Documents\Unreal Projects\MazeShooter\Intermediate\Build\Win64\UE4Editor\Development\MazeShooter\MazeShooterGameModeBase.cpp.obj"
+"C:\Users\Filip\Documents\Unreal Projects\MazeShooter\Intermediate\Build\Win64\UE4Editor\Development\MazeShooter\MazeShooterGameState.cpp.obj"
+"C:\Users\Filip\Documents\Unreal Projects\MazeShooter\Intermediate\Build\Win64\UE4Editor\Development\MazeShooter\SpherePawn.cpp.obj"
+"C:\Users\Filip\Documents\Unreal Projects\MazeShooter\Intermediate\Build\Win64\UE4Editor\Development\MazeShooter\Target.cpp.obj"
+"C:\Users\Filip\Documents\Unreal Projects\MazeShooter\Intermediate\Build\Win64\UE4Editor\Development\MazeShooter\Bullet.gen.cpp.obj"
+"C:\Users\Filip\Documents\Unreal Projects\MazeShooter\Intermediate\Build\Win64\UE4Editor\Development\MazeShooter\MazeShooter.init.gen.cpp.obj"
+"C:\Users\Filip\Documents\Unreal Projects\MazeShooter\Intermediate\Build\Win64\UE4Editor\Development\MazeShooter\MazeShooterGameModeBase.gen.cpp.obj"
+"C:\Users\Filip\Documents\Unreal Projects\MazeShooter\Intermediate\Build\Win64\UE4Editor\Development\MazeShooter\MazeShooterGameState.gen.cpp.obj"
+"C:\Users\Filip\Documents\Unreal Projects\MazeShooter\Intermediate\Build\Win64\UE4Editor\Development\MazeShooter\SpherePawn.gen.cpp.obj"
+"C:\Users\Filip\Documents\Unreal Projects\MazeShooter\Intermediate\Build\Win64\UE4Editor\Development\MazeShooter\Target.gen.cpp.obj"
+"C:\Users\Filip\Documents\Unreal Projects\MazeShooter\Intermediate\Build\Win64\UE4Editor\Development\MazeShooter\PCLaunch.rc.res"
+/OUT:"C:\Users\Filip\Documents\Unreal Projects\MazeShooter\Intermediate\Build\Win64\UE4Editor\Development\MazeShooter\UE4Editor-MazeShooter-4648.lib"

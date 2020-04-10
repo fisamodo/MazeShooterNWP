@@ -8,13 +8,44 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+struct FVector;
+struct FHitResult;
 #ifdef MAZESHOOTER_Bullet_generated_h
 #error "Bullet.generated.h already included, missing '#pragma once' in Bullet.h"
 #endif
 #define MAZESHOOTER_Bullet_generated_h
 
-#define MazeShooter_Source_MazeShooter_Bullet_h_12_RPC_WRAPPERS
-#define MazeShooter_Source_MazeShooter_Bullet_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define MazeShooter_Source_MazeShooter_Bullet_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnBulletHit) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_SelfActor); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_STRUCT(FVector,Z_Param_NormalImpulse); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnBulletHit(Z_Param_SelfActor,Z_Param_OtherActor,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+		P_NATIVE_END; \
+	}
+
+
+#define MazeShooter_Source_MazeShooter_Bullet_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnBulletHit) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_SelfActor); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_STRUCT(FVector,Z_Param_NormalImpulse); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnBulletHit(Z_Param_SelfActor,Z_Param_OtherActor,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+		P_NATIVE_END; \
+	}
+
+
 #define MazeShooter_Source_MazeShooter_Bullet_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABullet(); \

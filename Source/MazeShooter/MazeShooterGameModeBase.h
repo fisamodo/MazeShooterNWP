@@ -13,5 +13,12 @@ UCLASS()
 class MAZESHOOTER_API AMazeShooterGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
+public:
+
+	AMazeShooterGameModeBase();
+	void OnTargetHit();
+
+	UPROPERTY(EditAnywhere, Category = "Game Rules")
+	int32 PointsToWin;
 	
 };

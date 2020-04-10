@@ -31,6 +31,11 @@ void EmptyLinkFunctionForGeneratedCodeMazeShooterGameModeBase() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PointsToWin_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_PointsToWin;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -46,6 +51,16 @@ void EmptyLinkFunctionForGeneratedCodeMazeShooterGameModeBase() {}
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMazeShooterGameModeBase_Statics::NewProp_PointsToWin_MetaData[] = {
+		{ "Category", "Game Rules" },
+		{ "ModuleRelativePath", "MazeShooterGameModeBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMazeShooterGameModeBase_Statics::NewProp_PointsToWin = { UE4CodeGen_Private::EPropertyClass::Int, "PointsToWin", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(AMazeShooterGameModeBase, PointsToWin), METADATA_PARAMS(Z_Construct_UClass_AMazeShooterGameModeBase_Statics::NewProp_PointsToWin_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMazeShooterGameModeBase_Statics::NewProp_PointsToWin_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMazeShooterGameModeBase_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMazeShooterGameModeBase_Statics::NewProp_PointsToWin,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMazeShooterGameModeBase_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMazeShooterGameModeBase>::IsAbstract,
 	};
@@ -54,7 +69,7 @@ void EmptyLinkFunctionForGeneratedCodeMazeShooterGameModeBase() {}
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009002A8u,
 		nullptr, 0,
-		nullptr, 0,
+		Z_Construct_UClass_AMazeShooterGameModeBase_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_AMazeShooterGameModeBase_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
 		nullptr, 0,
@@ -69,7 +84,7 @@ void EmptyLinkFunctionForGeneratedCodeMazeShooterGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMazeShooterGameModeBase, 4137342868);
+	IMPLEMENT_CLASS(AMazeShooterGameModeBase, 177610671);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AMazeShooterGameModeBase(Z_Construct_UClass_AMazeShooterGameModeBase, &AMazeShooterGameModeBase::StaticClass, TEXT("/Script/MazeShooter"), TEXT("AMazeShooterGameModeBase"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AMazeShooterGameModeBase);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

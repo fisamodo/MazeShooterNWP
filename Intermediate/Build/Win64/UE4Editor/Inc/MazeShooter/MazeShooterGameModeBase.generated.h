@@ -35,7 +35,7 @@ public: \
 
 #define MazeShooter_Source_MazeShooter_MazeShooterGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AMazeShooterGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AMazeShooterGameModeBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMazeShooterGameModeBase) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AMazeShooterGameModeBase); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMazeShooterGameModeBase); \
@@ -47,8 +47,6 @@ public:
 
 
 #define MazeShooter_Source_MazeShooter_MazeShooterGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AMazeShooterGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AMazeShooterGameModeBase(AMazeShooterGameModeBase&&); \
@@ -56,7 +54,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AMazeShooterGameModeBase); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMazeShooterGameModeBase); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMazeShooterGameModeBase)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMazeShooterGameModeBase)
 
 
 #define MazeShooter_Source_MazeShooter_MazeShooterGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
