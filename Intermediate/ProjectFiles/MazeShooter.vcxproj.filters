@@ -42,4 +42,14 @@
       <Filter>Source\MazeShooter</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\MazeShooter\SpherePawn.h">
+      <Filter>Source\MazeShooter</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\MazeShooter\SpherePawn.cpp">
+      <Filter>Source\MazeShooter</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

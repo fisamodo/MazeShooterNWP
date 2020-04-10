@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeMazeShooter_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/MazeShooter",
 				PKG_CompiledIn | 0x00000000,
-				0xD64EA434,
-				0x30771D89,
+				0x0D908673,
+				0xE0E63A95,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};
