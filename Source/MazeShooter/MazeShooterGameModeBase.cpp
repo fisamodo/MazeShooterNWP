@@ -17,7 +17,7 @@ void AMazeShooterGameModeBase::OnTargetHit()
 		if (GS->Points >= PointsToWin)
 		{
 			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Cyan, FString::Printf(TEXT("You won the game! It took you %f seconds to win the game."), GetWorld()->GetTimeSeconds()));
-			GetWorld()->ServerTravel(FString("/Game/Labyrinth"));
+			GetWorld()->ServerTravel(FString("/Game/EndMap"));
 
 
 		}
